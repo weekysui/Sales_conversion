@@ -30,7 +30,7 @@ Based on the data we have, I have identified the Conversion Funnel below:
 1. CPM means the cost per thousand impressions: Campaign 1178 has the lowest CPM  
 2. CTR: 936 and 916 have higher click through rate relative lower cost per clicks, especially for campaign 916, which means these 2 campaigns attracted more people to click on it. And the company has spent much more on the campaign 1178, maybe the company should dig deeper through comparing ads design and content among these 3 campaigns.
 3. Campaign 918 has the most inquiry after clicking the ads, and it has the highest Approved conversion rate with the lowest conversion cost, while campaign 1178 has the highest conversion cost with the lowest approved conversion rate. 
- <img src="result.png">
+ <img src="results.png">
 
 ### 6.	Modeling: 
 -	Linear regression
