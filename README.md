@@ -20,6 +20,14 @@
 -	Click Through Rate （CTR）= Clicks/Impressions
 -	Conversion rate （CvR） = Approved_conversion / Clicks
 -	Cost per click（CPC） = Spent / Clicks
+##### Observations from KPI:
+Based on the data we have, I have identified the Conversion Funnel below:
+- Impressions: used to quantify the number of digital views
+- Clicks: when people who view your ads and interested in the content results in click on the ads for more information
+- Total Conversion: people who click the ads and have intention to make the purchase
+- Approved Conversion: people who actually made the purchase. 
+<img src="funnel.png">
+1. CPM means the cost per thousand impressions: Campaign 1178 has the lowest CPM, which means 1178 has higher ads displayed.  
 ### 6.	Modeling: 
 -	Linear regression
 -	Random forest regressor – based model
