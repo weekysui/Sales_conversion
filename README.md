@@ -29,7 +29,7 @@ Based on the data we have, I have identified the Conversion Funnel below:
 <img src="funnel.png">
 1. CPM means the cost per thousand impressions: Campaign 1178 has the lowest CPM  
 2. CTR: 936 and 916 have higher click through rate relative lower cost per clicks, especially for campaign 916, which means these 2 campaigns attracted more people to click on it. And the company has spent much more on the campaign 1178, maybe the company should dig deeper through comparing ads design and content among these 3 campaigns.
-3. Campaign 918 has the most inquiry after clicking the ads, and it has the highest Approved conversion rate with the lowest conversion cost, while campaign 1178 has the highest conversion cost with the lowest approved conversion rate. 
+3. Campaign 916 has the most inquiry after clicking the ads, and it has the highest Approved conversion rate with the lowest conversion cost, while campaign 1178 has the highest conversion cost with the lowest approved conversion rate. 
  <img src="results.png">
 
 ### 6.	Modeling: 
@@ -38,3 +38,9 @@ Based on the data we have, I have identified the Conversion Funnel below:
 -	Random forest regressor – optimized by RandomizedSearchCV
 -	Random forest regressor – optimized by GridSearchCV
 -	It turns out that random forest regressor - optimized by RandomizedSearchCV returns the highest R2 score 76%
+
+### 7. Business Insights:
+1. Company should gradually increase spending on Campaign 916, and maybe compare the ads design and contents among 3 campaigns. Currently company spent the most on campaign 1178, but it has the worst performance. 
+ - Now we don't have enough sample size for Campaign 916, we cannot make the decision that Campaign 916 is definitely better than 1178, but we can continue the finds and compare the result after increasing the sample size. 
+3. Based on our Data Visualization and Model prediction, the campaign ads should target on age group from 30-34, and male since they have a higher conversion rate with lower Cost per conversion. 
+4. Interest in category #112, #27, #101, #29, #104 have relatively higher feature importance. Increase ad spending on high performaning intereste categories. 
